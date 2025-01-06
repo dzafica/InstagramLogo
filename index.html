@@ -14,6 +14,7 @@
 	<meta name="keywords"
 		content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FreeHTML5.co" />
+	<link rel="icon" href="img/Instagram_icon.webp" type="image/png">
 
 	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content="" />
@@ -58,6 +59,18 @@
 			height: auto;
 			/* Maintain the aspect ratio */
 		}
+
+		canvas#myCanvas {
+			background-color: blueviolet;
+			margin-right: 5px;
+			/* Add margin to align with other icons */
+		}
+
+		canvas {
+			margin: 0;
+			width: 35px;
+			height: 35px;
+		}
 	</style>
 
 </head>
@@ -100,7 +113,80 @@
 					</ul>
 					<div class="social-icons-header">
 						<a href="https://www.facebook.com/fh5co"><i class="fab fa-facebook-f"></i></a>
-						<a href="https://freehtml5.co"><i class="fab fa-instagram"></i></a>
+						<a href="https://freehtml5.co" class="bezier-instagram">
+							<canvas id="myCanvas" width="350px" height="350px"></canvas>
+
+							<script>
+								var canvas = document.getElementById('myCanvas');
+								var ctx = canvas.getContext('2d');
+
+								// Set scale factor to resize the drawing
+								var scaleFactor = 0.14;  // Adjust this value as necessary to scale down
+
+								// Scale the drawing to fit within the 400px canvas
+								ctx.scale(scaleFactor, scaleFactor);
+
+								ctx.beginPath();
+								ctx.moveTo(1963.50, 217.50);
+								ctx.bezierCurveTo(2125.50, 373.50, 2137.50, 585.00, 2137.50, 585.00);
+								ctx.bezierCurveTo(2137.50, 585.00, 2152.50, 879.00, 2149.50, 1134.00);
+								ctx.bezierCurveTo(2155.33, 1659.33, 2117.33, 1692.00, 2115.00, 1722.00);
+								ctx.bezierCurveTo(2115.00, 1722.00, 2079.00, 1866.00, 1978.50, 1963.50);
+								ctx.bezierCurveTo(1949.56, 2000.42, 1912.22, 2027.65, 1876.67, 2049.33);
+								ctx.bezierCurveTo(1805.32, 2092.85, 1738.00, 2110.00, 1738.00, 2110.00);
+								ctx.bezierCurveTo(1738.00, 2110.00, 1645.50, 2148.00, 1429.50, 2145.00);
+								ctx.bezierCurveTo(1298.12, 2147.35, 1162.67, 2148.00, 1010.67, 2147.33);
+								ctx.bezierCurveTo(776.00, 2151.33, 561.55, 2147.77, 415.50, 2095.50);
+								ctx.bezierCurveTo(308.69, 2049.35, 229.49, 1990.54, 174.67, 1908.00);
+								ctx.bezierCurveTo(93.67, 1807.50, 73.27, 1669.68, 61.50, 1591.50);
+								ctx.bezierCurveTo(45.39, 1364.67, 50.60, 635.71, 60.00, 629.33);
+								ctx.bezierCurveTo(60.00, 629.33, 72.00, 390.00, 210.00, 245.33);
+								ctx.bezierCurveTo(337.97, 105.39, 496.67, 78.00, 593.33, 64.00);
+								ctx.bezierCurveTo(672.67, 58.67, 832.17, 49.83, 1102.67, 51.33);
+								ctx.bezierCurveTo(1354.11, 50.97, 1550.00, 55.33, 1621.50, 64.50);
+								ctx.bezierCurveTo(1671.33, 76.00, 1834.67, 87.55, 1963.50, 217.50);
+								ctx.closePath();
+
+								// Set the fill and stroke colors and apply them
+								ctx.fillStyle = "white"; // Set fill color
+								ctx.lineWidth = 165; // Set stroke width
+								ctx.strokeStyle = "white"; // Set stroke color
+								ctx.stroke(); // Apply stroke
+
+								ctx.beginPath();
+								ctx.moveTo(1089.25, 561.50); // Move to the start point
+								ctx.bezierCurveTo(1089.25, 561.50, 1132.83, 559.50, 1203.75, 571.25); // First curve
+								ctx.bezierCurveTo(1260.75, 585.75, 1395.33, 614.67, 1512.00, 752.67); // Second curve
+								ctx.bezierCurveTo(1578.04, 829.82, 1629.92, 934.97, 1640.00, 1096.67); // Third curve
+								ctx.bezierCurveTo(1640.15, 1096.74, 1644.00, 1339.33, 1461.33, 1500.00); // Fourth curve
+								ctx.bezierCurveTo(1381.45, 1571.53, 1270.70, 1633.05, 1101.00, 1638.00); // Fifth curve
+								ctx.bezierCurveTo(1101.00, 1638.00, 866.00, 1646.00, 710.00, 1469.33); // Sixth curve
+								ctx.bezierCurveTo(547.00, 1305.00, 562.67, 1088.67, 562.67, 1088.67); // Seventh curve
+								ctx.bezierCurveTo(553.50, 980.00, 650.00, 586.00, 1089.25, 561.50); // Closing the path
+								ctx.closePath();
+
+								// Set the fill and stroke colors and apply them
+								ctx.fillStyle = "white"; // Set fill color
+								ctx.lineWidth = 165; // Set stroke width
+								ctx.strokeStyle = "white"; // Set stroke color
+								ctx.stroke(); // Apply stroke
+
+
+								// Adding the custom-shaped circle similar to your SVG path
+								ctx.beginPath(); // Start a new path for the circle
+								ctx.moveTo(1785.00, 444.50); // Move to the start of the path
+								ctx.bezierCurveTo(1785.00, 444.50, 1786.83, 549.33, 1664.67, 567.33); // First curve
+								ctx.bezierCurveTo(1523.67, 559.83, 1534.00, 430.67, 1534.00, 430.67); // Second curve
+								ctx.bezierCurveTo(1534.00, 430.67, 1542.00, 320.67, 1658.00, 316.00); // Third curve
+								ctx.bezierCurveTo(1784.67, 321.33, 1785.00, 444.50, 1785.00, 444.50); // Final curve to close the path
+								ctx.closePath();
+								ctx.fillStyle = "white"; // Set the fill color to black
+								ctx.fill(); // Fill the path
+								ctx.lineWidth = 25; // Set the stroke width
+								ctx.strokeStyle = "white"; // Set the stroke color
+								ctx.stroke(); // Outline the path
+							</script>
+						</a>
 						<a href="https://www.twitter.com/fh5co"><i class="fab fa-twitter"></i></a>
 					</div>
 				</div>
@@ -116,8 +202,6 @@
 					onclick="$('#fh5co-download').goTo();return false;">Download</button>
 				<button class="btn btn-md features-btn-first animated fadeInLeft wow" data-wow-delay="0.95s"
 					onclick="$('#fh5co-features').goTo();return false;">Features</button>
-				<img class="fh5co-hero-smartphone animated fadeInRight wow" data-wow-delay="1s"
-					src="img/phone-image.png" alt="Smartphone">
 			</div>
 
 
@@ -132,28 +216,29 @@
 			<div class="container">
 				<h1 class="second-title"><span class="span-perfect">Perfect</span> <span
 						class="span-features">Features</span></h1>
-				<small>Only necessary</small>
+				<small>Only for you</small>
 
 				<div class="row fh5co-advantages-grid-columns wow animated fadeIn" data-wow-delay="0.36s">
 
 					<div class="col-sm-4">
-						<img class="grid-image" src="img/icon-1.png" alt="Icon-1">
-						<h1 class="grid-title">Usability</h1>
-						<p class="grid-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem cupiditate.
+						<img class="grid-image" src="img/story.png" alt="Icon-1">
+						<h1 class="grid-title">Visual Sharing</h1>
+						<p class="grid-desc">High-quality photo, video posts, Stories, and Reels for creative
+							storytelling.
 						</p>
 					</div>
 
 					<div class="col-sm-4">
-						<img class="grid-image" src="img/icon-2.png" alt="Icon-2">
-						<h1 class="grid-title">Parallax Effect</h1>
-						<p class="grid-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem cupiditate.
+						<img class="grid-image" src="img/like.png" alt="Icon-2">
+						<h1 class="grid-title">Engagement:</h1>
+						<p class="grid-desc">Likes, comments, DMs, and interactive tools to connect with others.
 						</p>
 					</div>
 
 					<div class="col-sm-4">
-						<img class="grid-image" src="img/icon-3.png" alt="Icon-3">
-						<h1 class="grid-title">Unlimited Colors</h1>
-						<p class="grid-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem cupiditate.
+						<img class="grid-image" src="img/icon-1.png" alt="Icon-3">
+						<h1 class="grid-title">Discovery</h1>
+						<p class="grid-desc">Explore tab and Reels help you find new content and creators.
 						</p>
 					</div>
 
@@ -338,12 +423,12 @@
 							<a href="https://www.facebook.com/fh5co"><i class="fab fa-facebook-f"></i></a>
 							<section id="banner">
 								<div class="logo">
-									<a href="https://www.instagram.com/"><svg xmlns="http://www.w3.org/2000/svg" width="34px" height="34px"
-										viewBox="-130 -130 3300 3300">
+									<a href="https://www.instagram.com/"><svg xmlns="http://www.w3.org/2000/svg"
+											width="34px" height="34px" viewBox="-130 -130 3300 3300">
 
 
 
-										<path id="Neimenovano #4" fill="none" stroke="#b5b5c8" stroke-width="180" d="M 1963.50,217.50
+											<path id="Neimenovano #4" fill="none" stroke="#b5b5c8" stroke-width="180" d="M 1963.50,217.50
 											  C 2125.50,373.50 2137.50,585.00 2137.50,585.00
 												2137.50,585.00 2152.50,879.00 2149.50,1134.00
 												2155.33,1659.33 2117.33,1692.00 2115.00,1722.00
@@ -371,12 +456,12 @@
 												1101.00,1638.00 866.00,1646.00 710.00,1469.33
 												547.00,1305.00 562.67,1088.67 562.67,1088.67
 												553.50,980.00 650.00,586.00 1089.25,561.50 Z" />
-										<path id="krogec" fill="#b5b5c8" stroke="#b5b5c8" stroke-width="45" d="M 1785.00,444.50
+											<path id="krogec" fill="#b5b5c8" stroke="#b5b5c8" stroke-width="45" d="M 1785.00,444.50
 											  C 1785.00,444.50 1786.83,549.33 1664.67,567.33
 												1523.67,559.83 1534.00,430.67 1534.00,430.67
 												1534.00,430.67 1542.00,320.67 1658.00,316.00
 												1784.67,321.33 1785.00,444.50 1785.00,444.50 Z" />
-									</svg></span>
+										</svg></span>
 									</a>
 								</div>
 
