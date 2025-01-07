@@ -46,27 +46,23 @@
 			justify-content: center;
 			align-items: center;
 			height: 100%;
-			/* Adjust based on your layout needs */
 			width: 100%;
-			/* Adjust based on your layout needs */
 			padding-left: 10px;
 			padding-top: 10px;
 		}
 
 		svg {
-			max-width: 100%;
-			/* Ensure the SVG scales properly */
+			/*max-width: 100%;*/
 			height: auto;
-			/* Maintain the aspect ratio */
 		}
 
 		canvas#myCanvas {
-			background-color: blueviolet;
+			/*background-color: blueviolet;*/
 			margin-right: 5px;
-			/* Add margin to align with other icons */
 		}
 
 		canvas {
+
 			margin: 0;
 			width: 35px;
 			height: 35px;
@@ -114,16 +110,14 @@
 					<div class="social-icons-header">
 						<a href="https://www.facebook.com/fh5co"><i class="fab fa-facebook-f"></i></a>
 						<a href="https://freehtml5.co" class="bezier-instagram">
-							<canvas id="myCanvas" width="350px" height="350px"></canvas>
-
+							<canvas id="myCanvas" width="280px" height="280px"></canvas>
 							<script>
 								var canvas = document.getElementById('myCanvas');
 								var ctx = canvas.getContext('2d');
 
-								// Set scale factor to resize the drawing
-								var scaleFactor = 0.14;  // Adjust this value as necessary to scale down
 
-								// Scale the drawing to fit within the 400px canvas
+								var scaleFactor = 0.12;
+
 								ctx.scale(scaleFactor, scaleFactor);
 
 								ctx.beginPath();
