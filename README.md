@@ -1,4 +1,5 @@
 Instagram Logo Presentation
+
 This website displays the Instagram logo in three formats: original, SVG, and Bezier curve.
 
 Features
