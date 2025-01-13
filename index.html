@@ -14,7 +14,8 @@
 	<meta name="keywords"
 		content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FreeHTML5.co" />
-	<link rel="icon" href="img/Instagram_icon.webp" type="image/png">
+	<link class="icon" rel="icon" href="img/instagram_icon.png" type="image/png">
+
 
 	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content="" />
@@ -55,6 +56,7 @@
 			max-width: 100%;
 			height: auto;
 		}
+
 		canvas {
 			margin: 0;
 		}
@@ -101,15 +103,14 @@
 					<div class="social-icons-header">
 						<a href="#"><i class="fab fa-facebook-f" id="facebook"></i></a>
 						<a href="#" class="bezier-instagram">
-							<canvas id="myCanvas" width="23px" height="23px"></canvas>
+							<canvas id="myCanvas" width="100px" height="100px"></canvas>
 							<script>
 								var canvas = document.getElementById('myCanvas');
 								var ctx = canvas.getContext('2d');
 
 
-								var scaleFactor = 0.01;
-
-								ctx.scale(scaleFactor, scaleFactor);
+								var scaleFactor = 0.1; // Remove or set to a higher value
+								ctx.scale(scaleFactor, scaleFactor); // Remove this line
 
 								ctx.beginPath();
 								ctx.moveTo(1963.50, 217.50);
@@ -173,6 +174,7 @@
 							</script>
 						</a>
 						<a href="#"><i class="fab fa-twitter"></i></a>
+
 					</div>
 				</div>
 			</nav>
@@ -463,7 +465,7 @@
 				</div>
 				<script src="js/suprise.js"></script>
 				<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-			
+
 
 				<p class="copyright">&copy; 2018 App. All rights reserved. Design by <a href="https://freehtml5.co"
 						target="_blank">FreeHTML5</a>.</p>
