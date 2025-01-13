@@ -78,7 +78,7 @@ html {
 
 .social-icons-header i {
     margin: 15px;
-    font-size: 23px; /* Match the icon size to the canvas size */
+    font-size: 23px;
 }
 
 .social-icons-header a:hover i {
@@ -781,7 +781,7 @@ html {
   .social-icons-header i:first-of-type {
     margin-right: 10px !important;
     margin-left: 0 !important;
-    font-size: 30px;
+    font-size: 23px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -992,3 +992,78 @@ html {
     text-align: center;
   }
 }
+
+.button-suprise {
+  border: none;
+  background-color: #5fc7ff;
+  color: #5fc7ff;
+  font-size: 10px;
+}
+
+
+/* Override SweetAlert's default styles */
+.swal2-icon{
+  background-color: #9da6f1;
+}
+.swal2-icon.swal2-info {
+  border-color: #2e3149;
+  color: #2e3149;
+}
+.swal2-popup {
+  font-family: 'Roboto', sans-serif;
+  /* Custom font */
+  background-color: #f9f9f9;
+  /* Custom background color */
+  color: #000000;
+  /* Text color */
+  border-radius: 15px;
+  /* Rounded corners */
+  padding: 20px;
+  /* Padding inside the popup */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  /* Shadow effect */
+}
+
+.swal2-title {
+  color: #000000;
+  /* Custom color for the title */
+  font-size: 24px;
+  /* Title font size */
+  margin-bottom: 10px;
+  /* Space between title and text */
+}
+
+.swal2-content {
+  font-size: 18px;
+  /* Custom font size for content */
+  color: #ff0000;
+  /* Content text color */
+}
+
+.swal2-confirm {
+  background-color: #2e3149;
+  /* Button background color */
+  color: white;
+  /* Button text color */
+  border-radius: 5px;
+  /* Rounded button */
+  padding: 12px 25px;
+  /* Button size */
+  font-size: 16px;
+  /* Button font size */
+  border: none;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  /* Button shadow */
+  transition: background-color 0.3s ease;
+}
+
+.swal2-confirm:hover {
+  background-color: #232536;
+  /* Hover effect */
+}
+
+/* Animation for showing popup */
+.swal2-popup {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
