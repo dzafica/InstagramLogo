@@ -2,6 +2,14 @@
 TITLE: 
 App - Free HTML5 App Template Built with Bootstrap 4
 
+# Instagram Logo Replica
+
+This project was created as part of a school assignment, where I replicated the Instagram logo using **SVG** and **Bezier curves**.
+
+## Project Features
+- Custom-made Instagram logo using **Bezier curves** and **SVG**.
+- Text and layout adjustments based on a pre-existing template.
+
 AUTHOR:
 DESIGNED & DEVELOPED by FreeHTML5.co
 
