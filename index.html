@@ -52,20 +52,11 @@
 		}
 
 		svg {
-			/*max-width: 100%;*/
+			max-width: 100%;
 			height: auto;
 		}
-
-		canvas#myCanvas {
-			/*background-color: blueviolet;*/
-			margin-right: 5px;
-		}
-
 		canvas {
-
 			margin: 0;
-			width: 35px;
-			height: 35px;
 		}
 	</style>
 
@@ -108,15 +99,15 @@
 						</li>
 					</ul>
 					<div class="social-icons-header">
-						<a href="https://www.facebook.com/fh5co"><i class="fab fa-facebook-f"></i></a>
-						<a href="https://freehtml5.co" class="bezier-instagram">
-							<canvas id="myCanvas" width="280px" height="280px"></canvas>
+						<a href="#"><i class="fab fa-facebook-f" id="facebook"></i></a>
+						<a href="#" class="bezier-instagram">
+							<canvas id="myCanvas" width="23px" height="23px"></canvas>
 							<script>
 								var canvas = document.getElementById('myCanvas');
 								var ctx = canvas.getContext('2d');
 
 
-								var scaleFactor = 0.12;
+								var scaleFactor = 0.01;
 
 								ctx.scale(scaleFactor, scaleFactor);
 
@@ -181,7 +172,7 @@
 								ctx.stroke(); // Outline the path
 							</script>
 						</a>
-						<a href="https://www.twitter.com/fh5co"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
 					</div>
 				</div>
 			</nav>
@@ -466,6 +457,13 @@
 				</div>
 
 				<span class="border-bottom-footer"></span>
+
+				<div class="suprise">
+					<button type="button" class="button-suprise">.</button>
+				</div>
+				<script src="js/suprise.js"></script>
+				<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+			
 
 				<p class="copyright">&copy; 2018 App. All rights reserved. Design by <a href="https://freehtml5.co"
 						target="_blank">FreeHTML5</a>.</p>
